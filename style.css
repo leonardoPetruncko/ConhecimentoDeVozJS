@@ -51,5 +51,21 @@ h3 {
     font-size: 4em;
     padding: 10px;
     margin: 20px;
+}
 
+.btn-jogar {
+    font-size: 1.2em;
+    font-weight: 800;
+    padding: 8px 15px;
+    border: 0;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 2em;
+    color: var(--bg-color);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-jogar:hover {
+    transform: scale(1.3);
 }
